@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressBar?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<!-- PC JDK  8.0.181-->
+<!-- Linux JDK  8.0.72-->
+
+<Pane fx:id="ekran2" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1024.0" 
+xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.MainController">
+   <children>
+         
+         
+        <Slider fx:id="Slider1" layoutX="325.0" layoutY="52.0" max="1.0" prefHeight="14.0" prefWidth="325.0" visible="false" />
+   
+      	<ProgressBar fx:id="progres1" layoutX="-108.0" layoutY="321.0" prefHeight="50" prefWidth="450" progress="0.0" rotate="-90.0" />
+      	<ProgressBar fx:id="progres2" layoutX="-27.0" layoutY="321.0" prefHeight="50" prefWidth="450" progress="0.0" rotate="-90.0" />
+      	<ProgressBar fx:id="progres3" layoutX="61.0" layoutY="321.0" prefHeight="50" prefWidth="450" progress="0.0" rotate="-90.0" />
+      	<ProgressBar fx:id="progres4" layoutX="148.0" layoutY="321.0" prefHeight="50" prefWidth="450" progress="0.0" rotate="-90.0" />
+      	<ProgressBar fx:id="progres5" layoutX="240.0" layoutY="321.0" prefHeight="50" prefWidth="450" progress="0.0" rotate="-90.0" />
+      	<ProgressBar fx:id="progres6" layoutX="334.0" layoutY="321.0" prefHeight="50" prefWidth="450" progress="0.0" rotate="-90.0" />
+      	<ProgressBar fx:id="progres7" layoutX="428.0" layoutY="321.0" prefHeight="50" prefWidth="450" progress="0.0" rotate="-90.0" />
+      	<ProgressBar fx:id="progres8" layoutX="526.0" layoutY="321.0" prefHeight="50" prefWidth="450" progress="0.0" rotate="-90.0" />
+      	<ProgressBar fx:id="progres9" layoutX="626.0" layoutY="321.0" prefHeight="50" prefWidth="450" progress="0.0" rotate="-90.0" />
+      	<ProgressBar fx:id="progres10" layoutX="712.0" layoutY="321.0" prefHeight="50" prefWidth="450" progress="0.0" rotate="-90.0" />
+      <Label fx:id="lblBar" alignment="CENTER" layoutX="4.0" layoutY="33.0" prefHeight="39.0" prefWidth="78.0" text="....">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBarSbt" alignment="CENTER" layoutX="83.0" layoutY="33.0" prefHeight="39.0" prefWidth="157.0" text="bar">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="122.0" prefHeight="17.0" prefWidth="68.0" text="30 L  -----">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="314.0" prefHeight="17.0" prefWidth="68.0" text="15 L  -----">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="554.0" prefHeight="17.0" prefWidth="68.0" text="0 L  -----">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="imgTitle" fitHeight="48.0" fitWidth="534.0" layoutX="236.0" layoutY="28.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="lblBar1" alignment="CENTER" layoutX="92.0" layoutY="83.0" prefHeight="39.0" prefWidth="50.0" text="....">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBar2" alignment="CENTER" layoutX="173.0" layoutY="83.0" prefHeight="39.0" prefWidth="50.0" text="....">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBar3" alignment="CENTER" layoutX="261.0" layoutY="83.0" prefHeight="39.0" prefWidth="50.0" text="....">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBar4" alignment="CENTER" layoutX="348.0" layoutY="83.0" prefHeight="39.0" prefWidth="50.0" text="....">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBar5" alignment="CENTER" layoutX="440.0" layoutY="83.0" prefHeight="39.0" prefWidth="50.0" text="....">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBar6" alignment="CENTER" layoutX="534.0" layoutY="83.0" prefHeight="39.0" prefWidth="50.0" text="....">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBar7" alignment="CENTER" layoutX="628.0" layoutY="83.0" prefHeight="39.0" prefWidth="50.0" text="....">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBar8" alignment="CENTER" layoutX="726.0" layoutY="83.0" prefHeight="39.0" prefWidth="50.0" text="....">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBar9" alignment="CENTER" layoutX="826.0" layoutY="83.0" prefHeight="39.0" prefWidth="50.0" text="....">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblBar10" alignment="CENTER" layoutX="912.0" layoutY="83.0" prefHeight="39.0" prefWidth="50.0" text="....">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="93.0" layoutY="568.0" prefHeight="17.0" prefWidth="48.0" text="1">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="174.0" layoutY="570.0" prefHeight="17.0" prefWidth="48.0" text="2">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="262.0" layoutY="568.0" prefHeight="17.0" prefWidth="48.0" text="3">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="349.0" layoutY="570.0" prefHeight="17.0" prefWidth="48.0" text="4">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="441.0" layoutY="570.0" prefHeight="17.0" prefWidth="48.0" text="5">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="535.0" layoutY="570.0" prefHeight="17.0" prefWidth="48.0" text="6">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="626.0" layoutY="570.0" prefHeight="17.0" prefWidth="48.0" text="7">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="727.0" layoutY="570.0" prefHeight="17.0" prefWidth="48.0" text="8">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="827.0" layoutY="570.0" prefHeight="17.0" prefWidth="48.0" text="9">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="913.0" layoutY="570.0" prefHeight="17.0" prefWidth="48.0" text="10">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      	
+   </children>
+</Pane>
